@@ -7,7 +7,12 @@ authors = [
     { name = "opplaypro", email = "93275481+opplaypro@users.noreply.github.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.5",
+    "pandas>=3.1.1",
+    "scikit-image>=0.26.0",
+]
 
 [project.scripts]
 projekt = "projekt:main"
